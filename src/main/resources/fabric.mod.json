@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "quartzhighlighter",
+  "version": "${version}",
+  "name": "Quartz Highlighter",
+  "description": "Highlights Nether Quartz Ore through walls",
+  "authors": [
+    "YourName"
+  ],
+  "contact": {
+    "homepage": "https://example.com/",
+    "sources": "https://github.com/YourName/quartz-highlighter",
+    "issues": "https://github.com/YourName/quartz-highlighter/issues"
+  },
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.example.quartzhighlighter.QuartzHighlighterMod"
+    ]
+  },
+  "mixins": [],
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "fabric-api": "*",
+    "minecraft": "~1.20.4",
+    "java": ">=17"
+  },
+  "suggests": {},
+  "custom": {
+    "modmenu": {
+      "links": {
+        "modmenu.discord": "https://discord.gg/example"
+      }
+    }
+  }
+}
